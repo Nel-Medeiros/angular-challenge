@@ -1,0 +1,16 @@
+<mat-paginator class="paginator-bar" [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+<div class="photos-head">
+    <mat-icon aria-hidden="false" aria-label="camera icon">photo_camera</mat-icon>
+    <h1>Fotos</h1>
+</div>
+<div class="cards" style="padding: 13px;">
+    <!-- <mat-spinner *ngIf="obs.length === 0"></mat-spinner> -->
+    <mat-card class="card" *ngFor="let photo of obs | async" style="margin-top:11px;">
+        <mat-card-header>
+            <mat-card-title>{{photo.title}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <img style="height:100%; width: 100%;" src="{{ photo.url }}" />
+        </mat-card-content>
+    </mat-card>
+</div>

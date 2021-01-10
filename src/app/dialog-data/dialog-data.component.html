@@ -1,0 +1,26 @@
+
+<div class="userHeader">
+    <p class="name">{{data.name}}</p>
+    <p><strong>Username:</strong> {{data.username}}</p>
+    <p><strong>Email:</strong>  {{data.email}}</p>
+    <p><strong>Tel.:</strong> {{data.phone}}</p>
+    <p><strong>Website:</strong> {{data.website}}</p>
+</div>
+
+<div class="address">
+    <p class="sec-head">Endereço:</p>
+    <p><strong>Rua:</strong> {{data.address.street}}</p>
+    <p><strong>Complemento:</strong> {{data.address.suite}}</p>
+    <p><strong>Cidade:</strong> {{data.address.city}}</p>
+    <p><strong>CEP:</strong> {{data.address.zipcode}}</p>
+    <p><strong>Geo:</strong> Lat: {{data.address.geo.lat}} - Lng: {{data.address.geo.lng}}</p>
+</div>
+
+<div class="company">
+    <p class="sec-head">Empresa:</p>
+    <p><strong>Nome:</strong> {{data.company.name}}</p>
+    <p><strong>Bordão:</strong> {{data.company.catchPhrase}}</p>
+    <p><strong>Segmento:</strong> {{data.company.bs}}</p>
+</div>
+
+<button class="close-button" mat-button mat-dialog-close>Fechar</button>

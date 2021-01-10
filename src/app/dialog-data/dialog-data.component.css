@@ -1,0 +1,31 @@
+.userHeader {
+    border-bottom: 1px solid indigo;
+    padding: 6px;
+}
+
+.address {
+    margin-top: 5px;
+    border-bottom: 1px solid indigo;
+    padding: 6px;
+}
+
+.company {
+    margin-top: 5px;
+    border-bottom: 1px solid indigo;
+    padding: 6px;
+}
+
+.name {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.sec-head {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.close-button {
+    margin-top: 5px;
+}

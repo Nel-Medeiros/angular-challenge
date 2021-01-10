@@ -1,0 +1,34 @@
+table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main {
+    height: 100vh;
+}
+
+.filter {
+    width: 40%;    
+    left: 10%;
+}
+
+.paginator-bar {
+    position: sticky;
+    top: 3.5rem;
+    z-index: 10;
+}
+
+.users-head {
+    display: flex;
+    margin-left: 3rem;
+    color:#878787;
+}
+.users-head mat-icon {
+    font-size: 4rem;    
+}
+
+.users-head h1 {
+    font-size: 2rem; 
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
