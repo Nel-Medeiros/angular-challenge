@@ -3,7 +3,7 @@
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item [routerLink]="['/angular-challenge/login']" (click)="drawer.toggle()">Home</a>
+      <a mat-list-item [routerLink]="['/login']" (click)="drawer.toggle()">Home</a>
       <a mat-list-item [routerLink]="['/users']" (click)="drawer.toggle()">Usuários</a>
       <a mat-list-item [routerLink]="['/photos']" (click)="drawer.toggle()">Fotos</a>
       <a mat-list-item [ngClass]="{'logout-button' : isLogged}" (click)="logOut()" href="/login">Logout</a>
@@ -17,7 +17,7 @@
       </button>
       <span>GFTgram</span>
       <span class="spacer"></span>
-      <a *ngIf="!(isHandset$ | async)" [routerLink]="['/angular-challenge/login']">Home</a>
+      <a *ngIf="!(isHandset$ | async)" [routerLink]="['/login']">Home</a>
       <a *ngIf="!(isHandset$ | async)" [routerLink]="['/users']">Usuários</a>
       <a *ngIf="!(isHandset$ | async)" [routerLink]="['/photos']">Fotos</a>
       <button *ngIf="!(isHandset$ | async)" (click)="logOut()" mat-raised-button color="accent"><a
