@@ -118,6 +118,10 @@
               "devServerTarget": "angular11-material:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
