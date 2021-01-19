@@ -22,7 +22,6 @@
       <a *ngIf="!(isHandset$ | async)" [routerLink]="['/photos']">Fotos</a>
       <button *ngIf="!(isHandset$ | async)" (click)="logOut()" mat-raised-button color="accent"><a
           href="/login">Logout</a></button>
-
     </mat-toolbar>
     <!-- Add Content Here -->
     <ng-content></ng-content>
