@@ -1,5 +1,4 @@
 <h1 align="center">
-<!-- <img src="https://i.ibb.co/qrDMMKV/Group-68.png" alt="Group-68" border="0"> -->
 <br>
   <img src="https://i.ibb.co/qrDMMKV/Group-68.png" alt="logo-gftgram" width="120">
 <br>
