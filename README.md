@@ -15,7 +15,8 @@ GFTgram
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
 </p>
-  <img src="https://i.ibb.co/1LQW4vv/ezgif-com-gif-maker.gif" alt="GFTgram-Web-Gif" height="425" width="650">
+<!-- <img src="https://i.ibb.co/5TN6WzD/ezgif-com-gif-maker.gif" alt="ezgif-com-gif-maker" border="0"> -->
+  <img src="https://i.ibb.co/5TN6WzD/ezgif-com-gif-maker.gif" alt="GFTgram-Web-Gif" height="425" width="650">
 </div>
 
 <hr />
